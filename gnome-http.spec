@@ -7,6 +7,7 @@ Release:	0.%{snap}
 License:	GPL
 Group:		X11/Libraries
 Source0:	ftp://ftp.gnome.org/pub/GNOME/unstable/sources/gnome-http/%{name}-%{snap}.tar.gz
+# Source0-md5: fae75251f240b7e4bef0c830b40fb0c5
 URL:		http://www.gnome.org/
 BuildRequires:	automake
 BuildRequires:	autoconf
