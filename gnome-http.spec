@@ -1,6 +1,6 @@
 %define	snap	20010401
-Summary:	GNOME - http library
-Summary(pl):	GNOME - biblioteka http
+Summary:	GNOME - HTTP library
+Summary(pl):	GNOME - biblioteka HTTP
 Name:		gnome-http
 Version:	0.1
 Release:	0.%{snap}
@@ -16,10 +16,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 
 %description
-GNOME http library.
+GNOME HTTP library.
 
 %description -l pl
-Biblioteka http GNOME.
+Biblioteka HTTP GNOME.
 
 %package devel
 Summary:	gnome-http - header files
