@@ -6,13 +6,6 @@ Version:	0.1
 Release:	0.%{snap}
 License:	GPL
 Group:		X11/Libraries
-Group(de):	X11/Libraries
-Group(es):	X11/Bibliotecas
-Group(fr):	X11/Librairies
-Group(pl):	X11/Biblioteki
-Group(pt_BR):	X11/Bibliotecas
-Group(ru):	X11/Библиотеки
-Group(uk):	X11/Б╕бл╕отеки
 Source0:	ftp://ftp.gnome.org/pub/GNOME/unstable/sources/gnome-http/%{name}-%{snap}.tar.gz
 URL:		http://www.gnome.org/
 BuildRequires:	automake
@@ -33,13 +26,6 @@ Biblioteka http GNOME.
 Summary:	gnome-http - header files
 Summary(pl):	gnome-http - pliki nagЁСwkowe
 Group:		X11/Development/Libraries
-Group(de):	X11/Entwicklung/Libraries
-Group(es):	X11/Desarrollo/Bibliotecas
-Group(fr):	X11/Development/Librairies
-Group(pl):	X11/Programowanie/Biblioteki
-Group(pt_BR):	X11/Desenvolvimento/Bibliotecas
-Group(ru):	X11/Разработка/Библиотеки
-Group(uk):	X11/Розробка/Б╕бл╕отеки
 Requires:	%{name} = %{version}
 
 %description devel
@@ -52,13 +38,6 @@ Pakiet ten zawiera pliki nagЁСwkowe.
 Summary:	gnome-http - static libraries
 Summary(pl):	gnome-http - biblioteki statyczne
 Group:		X11/Development/Libraries
-Group(de):	X11/Entwicklung/Libraries
-Group(es):	X11/Desarrollo/Bibliotecas
-Group(fr):	X11/Development/Librairies
-Group(pl):	X11/Programowanie/Biblioteki
-Group(pt_BR):	X11/Desenvolvimento/Bibliotecas
-Group(ru):	X11/Разработка/Библиотеки
-Group(uk):	X11/Розробка/Б╕бл╕отеки
 Requires:	%{name}-devel = %{version}
 
 %description static
