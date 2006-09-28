@@ -9,8 +9,8 @@ Group:		X11/Libraries
 Source0:	ftp://ftp.gnome.org/pub/GNOME/unstable/sources/gnome-http/%{name}-%{snap}.tar.gz
 # Source0-md5:	fae75251f240b7e4bef0c830b40fb0c5
 URL:		http://www.gnome.org/
-BuildRequires:	automake
 BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRequires:	libtool
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -25,7 +25,7 @@ Biblioteka HTTP GNOME.
 Summary:	gnome-http - header files
 Summary(pl):	gnome-http - pliki nag³ówkowe
 Group:		X11/Development/Libraries
-Requires:	%{name} = %{version}
+Requires:	%{name} = %{version}-%{release}
 
 %description devel
 This package contains header files.
@@ -37,7 +37,7 @@ Pakiet ten zawiera pliki nag³ówkowe.
 Summary:	gnome-http - static libraries
 Summary(pl):	gnome-http - biblioteki statyczne
 Group:		X11/Development/Libraries
-Requires:	%{name}-devel = %{version}
+Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 This package contains static libraries.
