@@ -1,6 +1,6 @@
 %define	snap	20010401
 Summary:	GNOME - HTTP library
-Summary(pl.UTF-8):   GNOME - biblioteka HTTP
+Summary(pl.UTF-8):	GNOME - biblioteka HTTP
 Name:		gnome-http
 Version:	0.1
 Release:	0.%{snap}
@@ -23,7 +23,7 @@ Biblioteka HTTP GNOME.
 
 %package devel
 Summary:	gnome-http - header files
-Summary(pl.UTF-8):   gnome-http - pliki nagłówkowe
+Summary(pl.UTF-8):	gnome-http - pliki nagłówkowe
 Group:		X11/Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
@@ -35,7 +35,7 @@ Pakiet ten zawiera pliki nagłówkowe.
 
 %package static
 Summary:	gnome-http - static libraries
-Summary(pl.UTF-8):   gnome-http - biblioteki statyczne
+Summary(pl.UTF-8):	gnome-http - biblioteki statyczne
 Group:		X11/Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
