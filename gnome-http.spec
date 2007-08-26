@@ -4,16 +4,15 @@ Summary(pl.UTF-8):	GNOME - biblioteka HTTP
 Name:		gnome-http
 Version:	0.1
 Release:	0.%{snap}
-License:	GPL
+License:	LGPL v2+
 Group:		X11/Libraries
-Source0:	ftp://ftp.gnome.org/pub/GNOME/unstable/sources/gnome-http/%{name}-%{snap}.tar.gz
+# formerly at ftp://ftp.gnome.org/pub/GNOME/unstable/sources/gnome-http
+Source0:	%{name}-%{snap}.tar.gz
 # Source0-md5:	fae75251f240b7e4bef0c830b40fb0c5
-URL:		http://www.gnome.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	libtool
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-
 
 %description
 GNOME HTTP library.
